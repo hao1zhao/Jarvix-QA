@@ -235,6 +235,7 @@ def main():
 
     # Initialize the accelerator. We will let the accelerator handle device placement for us in this example.
     handler = DistributedDataParallelKwargs(find_unused_parameters=True)
+    # print(f"handler:{handler}")
     accelerator = Accelerator(kwargs_handlers=[handler])
     # Make one log on every process with the configuration for debugging.
     logging.basicConfig(
@@ -451,6 +452,10 @@ def main():
                         sum(sentence_subword_lengths[word_start:word_end]) <= tokenizer.max_mention_length
                         and len(entity_spans) < tokenizer.max_entity_length
                     ):
+                        # print(f"sentence_words:{sentence_words}")
+                        # print(f"start_position:{word_start_char_positions}")
+                        # print(f"end_position:{word_start_char_positions}")
+                        # print(f"sentence_words:{len(sentence_words)},start_position:{len(word_start_char_positions)},end_position:{len(word_start_char_positions)}")
                         entity_spans.append((word_start_char_positions[word_start], word_end_char_positions[word_end]))
                         original_entity_spans.append((word_start, word_end + 1))
                         if (
@@ -522,6 +527,7 @@ def main():
             batched=True,
             desc="Adding sentence spans",
         )
+        print(f"align labels: {tokenize_and_align_labels(raw_datasets['train'][:5])}")
 
         processed_raw_datasets = raw_datasets.map(
             tokenize_and_align_labels,
@@ -572,6 +578,7 @@ def main():
 
     # Use the device given by the `accelerator` object.
     device = accelerator.device
+    # device = "cuda:1"
     model.to(device)
 
     # Prepare everything with our `accelerator`.
@@ -640,7 +647,7 @@ def main():
                     final_results[key] = value
             return final_results
         else:
-            print(f"results:{results}")
+            # print(f"results:{results}")
             return {
                 # "precision": results["precision"],
                 # "recall": results["recall"],
@@ -667,8 +674,11 @@ def main():
         for step, batch in enumerate(train_dataloader):
             _ = batch.pop("original_entity_spans")
             _ = batch.pop("ner_tags")
+            # print(f"batch.keys():{batch.keys()}")
             outputs = model(**batch)
+            # print(f"output:{outputs.logits.argmax(-1).squeeze().tolist()}")
             loss = outputs.loss
+            print(f"loss:{loss}")
             loss = loss / args.gradient_accumulation_steps
             accelerator.backward(loss)
             if step % args.gradient_accumulation_steps == 0 or step == len(train_dataloader) - 1:
