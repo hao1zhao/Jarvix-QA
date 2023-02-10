@@ -1,0 +1,329 @@
+text,chunk_tags,pos_tags,ner_tags
+客戶 編號 數量,NR NN NR,PROPN,1 2 3
+城市 不為Oregon 成本 和 利潤,NN AD NN CC NR,PROPN,1 5 1 3 1 
+單位 價格 和 成本 和 利潤,NN NN CC NN CC NR,PROPN,1 2 3 1 3 1 
+是 會員 客戶 編號,VC NN NN NN,NOUN,5 1 1 2 
+各 產品 的 客戶 編號,DT NN DEC NN NN,NOUN,3 1 0 1 2
+Clothing 事件 的 數量,NR NN DEC NR,PROPN,5 1 0 1
+Clothing 類別 的 成本 和 利潤,NR NN DEG NN CC NR,PROPN,5 6 3 1 3 1
+城市 為Oregon 和 US 在 Bikes 和 Clothing 的 數量,NN CC CC NR P NR CC NR DEG NR,PROPN,1 5 3 5 0 5 3 5 0 3
+單位 價格 大於 等於 500 國家 和 產品 的 成本 和 利潤,NR NR VV NR CD NN CC NR DEG NN CC NR,PROPN,1 2 3 4 5 1 3 1 0 1 3 1
+的 單位 價格 和 成本 和 利潤,DEG NN NN CC NN CC NR,PROPN,0 1 2 3 1 3 1 
+城市 不是 Oregon,NN AD NN,NOUN,1 3 5 
+城市 不為Oregon 特徵 欄位 平均,NN JJ NN NN AD,ADV,1 5 1 2 3
+單位 成本 小於 500 成本 和 利潤 平均,NN NN NN CD NN CC NN AD,ADV,1 2 5 5 1 3 1 3
+單位 成本 小於 500 單位 價格 和 成本 和 利潤 平均,NN NN NN CD NN NN CC NN CC NN AD,ADV,1 2 5 5 1 2 3 1 3 1 3
+Clothing 類別 平均,NR NN AD,ADV,5 1 3 
+城市 為Oregon 各 布林 的 客戶 編號 平均,NN AD DT NN DEC NN NN AD,ADV,1 5 3 1 0 1 2 3
+城市 不為Oregon 是 Washington 的 數量 平均,NN AD VC NR DEG NR AD,ADV,1 5 5 5 0 1 3
+Washington 和 California 的 成本 和 利潤 平均,NR CC NR DEG NN CC NN AD,ADV,5 3 5 0 1 3 1 3
+城市 為Oregon 各 事件 的 客戶 編號 的 特徵 欄位 平均,NN JJ DT NN DEC NN NN DEG NN NN AD,ADV,1 5 3 1 0 1 2 0 1 2 3
+城市 為Oregon 各 產品 的 客戶 編號 的 成本 和 利潤 平均,NN JJ DT NN DEC NN NN DEG NN CC NN AD,ADV,1 5 3 1 0 1 2 0 1 3 1 3 
+的 單位 價格 和 成本 和 利潤 平均,DEG NN NN CC NN CC NN AD,ADV,0 1 2 3 1 3 1 3
+單位 價格 大於 400 平均,NN NR VV CD NN,NOUN,1 2 3 5 3 
+客戶 編號 數量 前 十 名,NR NN NR DT CD M,NUM,1 2 3 5 6 6 
+城市 不是 Oregon 成本 和 利潤 前 十 名,NN VC NN NN CC NR DT CD M,NUM,1 3 5 1 3 1 5 6 6 
+單位 價格 和 成本 和 利潤 前 十 名,NN NN CC NN CC NR DT CD M,NUM,1 2 3 1 3 1 5 6 6 
+客戶 編號 前 十 名,NN NN DT CD M,NUM,1 2 5 6 6 
+城市 不為Oregon 各 類別 的 客戶 編號 前 十 名,NN AD DT NN DEC NN NN DT CD M,NUM,1 5 3 1 0 1 2 5 6 6
+是 Washington 的 數量 前 十 名,VC NR DEG NR DT CD M,NUM,3 5 0 1 3 5 6 6
+產品 的 成本 和 利潤 前 十 名,NR DEG NN CC NR DT CD M,NUM,1 0 1 3 1 5 6 6
+各 產品 的 客戶 編號 的 數量 前 十 名,DT NN DEG NN NN DEC NR DT CD M,NUM,3 1 0 1 2 0 1 5 6 6 
+城市 為Oregon 國家 和 產品 的 成本 和 利潤 前 十 名,NN JJ NN CC NR DEG NN CC NR DT CD M,NUM,1 5 1 3 1 0 1 3 1 5 6 6
+是 會員 的 單位 價格 和 成本 和 利潤 前 十 名,VC NN DEG NN NN CC NN CC NR DT CD M,NUM,3 1 0 1 2 3 1 3 1 5 6 6
+城市 不是 Oregon 前 十 名,NN AD NR DT CD M,NUM,1 3 5 5 6 6
+特徵 欄位 平均 前 十 名,NN NN NN DT CD M,NUM,1 2 3 5 6 6 
+成本 和 利潤 平均 前 十 名,NN CC NN NN DT CD M,NUM,1 3 1 3 5 6 6 
+Clothing 單位 價格 和 成本 和 利潤 平均 前 十 名,NR NN NR CC NN CC NN NN DT CD M,NUM,5 1 2 3 1 3 1 3 5 6 6 
+是 Washington 平均 前 十 名,VC NR NN DT CD M,NUM,3 5 3 5 6 6
+各 類別 的 客戶 編號 平均 前 十 名,DT NN DEG NN NN AD DT CD M,NUM,3 1 0 1 2 3 5 6 6 
+產品 的 數量 平均 前 十 名,NR DEG NR NN DT CD M,NUM,1 0 1 3 5 6 6 
+布林 的 成本 和 利潤 平均 前 十 名,NN DEG NN CC NN NN DT CD M,NUM,1 0 1 3 1 3 5 6 6
+城市 是 Oregon 國家 和 產品 的 特徵 欄位 平均 前 十 名,NN VC NR NN CC NR DEG NN NN NN DT CD M,NUM,1 3 5 1 3 1 0 1 2 3 5 6 6 
+城市 不是 Oregon 國家 和 產品 的 成本 和 利潤 平均 前 十 名,NN VC NR NN CC NR DEG NN CC NN NN DT CD M,NUM,1 3 5 1 3 1 0 1 3 1 3 5 6 6 
+城市 不是 Oregon 的 單位 價格 和 成本 和 利潤 平均 前 十 名,NN AD NN DEG NN NN CC NN CC NN NN DT CD M,NUM,1 3 5 0 1 2 3 1 3 1 3 5 6 6 
+Clothing 平均 前 十 名,NR AD DT CD M,NUM,5 3 5 6 6 
+特徵 欄位 比較,NN NN AD,ADV,1 2 7
+Clothing 成本 和 利潤 比 較,NR NN CC NN P NR,PROPN,5 1 3 1 7 8
+是 會員 單位 價格 和 成本 和 利潤 比 較,VC NN NN NN CC NN CC NN P NR,PROPN,5 1 2 2 3 1 3 1 7 8
+Washington 和 California 比較,NR CC NR VV,VERB,5 3 5  7 8
+單位 價格 大於 400 各 產品 的 客戶 編號 比 較,NN NR VV CD DT NN DEC NN NN P NR,PROPN,1 2 3 4 3 1 0 1 2 7 8
+事件 的 特徵 欄位 比較,NN DEG NN NN AD,ADV,1 0 1 2 7
+單位 成本 小於 500 類別 的 成本 和 利潤 比 較,NN NN NN CD NN DEG NN CC NN P NR,PROPN,1 2 3 5 1 0 1 3 1 7 8
+各 產品 的 客戶 編號 的 特徵 欄位 比較,DT NN DEG NN NN DEG NN NN AD,ADV,3 1 0 1 2 0 1 2 7
+國家 和 產品 的 成本 和 利潤 比 較,NN CC NR DEG NN CC NN P NR,PROPN,1 3 1 0 1 3 1 7 8
+的 單位 價格 和 成本 和 利潤 比 較,DEG NN NN CC NN CC NN P NR,PROPN,0 1 2 3 1 3 1 7 8
+城市 是 Oregon 比較,NN VC NR AD,ADV,1 3 5 7
+特徵 欄位 平均 比 較,NN NN AD P NR,PROPN,1 2 3 7 8
+單位 價格 大於 400 成本 和 利潤 平均 比 較,NN NR VV CD NN CC NN AD P NR,PROPN,1 2 3 5 1 3 1 3 7 8
+單位 價格 和 成本 和 利潤 平均 比 較,NN NN CC NN CC NN AD P NR,PROPN,1 2 3 1 3 1 3 7 8
+城市 非OregonWashington 和 California 平均 比 較,NN OD CC NR AD P NR,PROPN,1 5 3 5 3 7 8
+各 事件 的 客戶 編號 平均 比 較,DT NN DEC NN NN AD P NR,PROPN,3 1 0 1 2 3 7 8
+單位 成本 小於 500 類別 的 數量 平均 比 較,NN NN NN CD NN DEC NR AD P NR,PROPN,1 2 3 5 1 0 3 3 7 8
+布林 的 成本 和 利潤 平均 比 較,NN DEG NN CC NN AD P NR,PROPN,1 0 1 3 1 3 7 8
+US 在 Bikes 和 Clothing 的 數量 平均 比 較,NR P NR CC NR DEG NR AD P NR,PROPN,5 0 5 3 5 0 3 4 7 8
+US 在 Bikes 和 Clothing 的 成本 和 利潤 平均 比 較,NR P NR CC NR DEG NN CC NN AD P NR,PROPN,5 0 5 3 5 0 1 3 1 3 7 8
+城市 為Oregon 的 單位 價格 和 成本 和 利潤 平均 比 較,NN JJ DEG NN NN CC NN CC NN AD P NR,PROPN,1 5 0 1 2 3 1 3 1 3 7 8
+Clothing 平均 比 較,NR AD P NR,PROPN,5 3 7 8
+客戶 編號 數量 前 十 名 比較,NR NN NR DT CD M AD,ADV,1 2 3 5 6 6 7
+城市 非Oregon 成本 和 利潤 前 十 名 比較,NN CC NN CC NR DT CD M AD,ADV,1 5 1 3 1 5 6 6 7
+單位 價格 和 成本 和 利潤 前 十 名 比較,NN NN CC NN CC NR DT CD M AD,ADV,1 2 3 1 3 1 5 6 6 7
+事件 前 十 名 比較,NN DT CD M AD,ADV,1 5 6 6 7
+國家 和 產品 前 十 名 比較,NN CC NR DT CD M AD,ADV,1 3 1 5 6 6 7
+是 Washington 的 特徵 欄位 前 十 名 比較,VC NR DEG NN NN DT CD M AD,ADV,3 5 0 1 2 5 6 6 7
+事件 的 成本 和 利潤 前 十 名 比較,NN DEG NN CC NR DT CD M AD,ADV,1 0 1 3 1 5 6 6 7
+各 事件 的 客戶 編號 的 數量 前 十 名 比較,DT NN DEG NN NN DEC NR DT CD M AD,ADV,3 1 0 1 2 0 3 5 6 6 7
+國家 和 產品 的 成本 和 利潤 前 十 名 比較,NN CC NR DEG NN CC NR DT CD M AD,ADV,1 3 1 0 1 3 1 5 6 6 7
+的 單位 價格 和 成本 和 利潤 前 十 名 比較,DEG NN NN CC NN CC NR DT CD M AD,ADV,0 1 2 3 1 3 1 5 6 6 7
+城市 為Oregon 前 十 名 比較,NN AD DT CD M AD,ADV,1 5 6 6 6 7
+特徵 欄位 平均 前 十 名 比較,NN NN NN DT CD M AD,ADV,1 2 3 5 6 6  7
+成本 和 利潤 平均 前 十 名 比較,NN CC NN NN DT CD M AD,ADV,1 3 1 3 5 6 6 7
+單位 成本 小於 500 單位 價格 和 成本 和 利潤 平均 前 十 名 比較,NN NN NN CD NN NN CC NN CC NN NN DT CD M AD,ADV,1 2 3 5 1 2 3 1 3 1 3 5 6 6 7
+單位 成本 小於 500 客戶 編號 平均 前 十 名 比較,NN NN VV CD NN NN AD DT CD M AD,ADV,1 2 3 5 1 2 3 5 6 6 7
+各 事件 的 客戶 編號 平均 前 十 名 比較,DT NN DEC NN NN AD DT CD M AD,ADV,3 1 0 1 2 3 5 6 6 7
+單位 價格 大於 等於 500 類別 的 特徵 欄位 平均 前 十 名 比較,NR NR VV NR CD NN DEC NN NN NN DT CD M AD,ADV,1 2 3 4 5 1 0 1 2 3 5 6 6 7
+Washington 和 California 的 成本 和 利潤 平均 前 十 名 比較,NR CC NR DEG NN CC NN NN DT CD M AD,ADV,5 3 5 0 1 3 1 3 5 6 6 7
+US 在 Bikes 和 Clothing 的 特徵 欄位 平均 前 十 名 比較,NR P NR CC NR DEG NN NN NN DT CD M AD,ADV,5 0 5 3 5 0 1 2 3 5 6 6 7
+單位 價格 大於 等於 500 各 產品 的 客戶 編號 的 成本 和 利潤 平均 前 十 名 比較,NR NR VV NR CD DT NN DEC NN NN DEG NN CC NN NN DT CD M AD,ADV,1 2 3 4 5 3 1 0 1 2 0 1 0 1 3 5 6 6 7
+單位 價格 大於 400 的 單位 價格 和 成本 和 利潤 平均 前 十 名 比較,NN NR VV CD DEC NN NN CC NN CC NN NN DT CD M AD,ADV,1 2 3 4 5 0 1 2 3 1 3 1 3 5 6 6 7
+單位 價格 大於 等於 500 平均 前 十 名 比較,NR NR VV NR CD NN DT CD M AD,ADV,1 2 3 4 5 3 5 6 6 7
+城市 不是 Oregon 特徵 欄位 比例,NN AD NR NN NN NN,NOUN,1 3 5 1 2 7
+成本 和 利潤 比例,NN CC NN NN,NOUN,1 3 1 7 
+單位 價格 和 成本 和 利潤 比例,NN NN CC NN CC NN NN,NOUN,1 2 3 1 3 1 7 
+城市 不是 Oregon 客戶 編號 比例,NN VC NR NN NN NN,NOUN,2 3 5 1 2 7
+國家 和 產品 比例,NN CC NR NN,NOUN,1 3 1 7
+是 Washington 的 特徵 欄位 比例,VC NR DEG NN NN NN,NOUN,3 5 0 1 2 7
+單位 價格 大於 等於 500 布林 的 成本 和 利潤 比例,NR NR VV NR CD NN DEG NN CC NN NN,NOUN,1 2 3 4 5 1 0 1 3 1 7
+各 事件 的 客戶 編號 的 數量 比例,DT NN DEG NN NN DEG NR NN,NOUN,3 1 0 1 2 0 1 7 
+各 布林 的 客戶 編號 的 成本 和 利潤 比例,DT NN DEG NN NN DEG NN CC NN NN,NOUN,3 1 0 1 2 0 1 3 1 7 
+的 單位 價格 和 成本 和 利潤 比例,DEG NN NN CC NN CC NN NN,NOUN,0 1 2 3 1 3 1 7
+城市 不為Oregon 比例,NN JJ NN,NOUN,1 5 7
+單位 成本 小於 500 特徵 欄位 平均 比例,NN NN NN CD NN NN JJ NN,NOUN,1 2 3 5 1 2 3 7 
+成本 和 利潤 平均 比例,NN CC NN JJ NN,NOUN,1 3 1 3 7 
+城市 非Oregon 單位 價格 和 成本 和 利潤 平均 比例,NN CC NN NN CC NN CC NN JJ NN,NOUN,1 5 1 2 3 1 3 1 3 7
+城市 非Oregon 客戶 編號 平均 比例,NN CC NN NN JJ NN,NOUN,1 5 1 2 3 7
+是 會員 各 類別 的 客戶 編號 平均 比例,VC NN DT NN DEC NN NN JJ NN,NOUN,3 1 3 1 0 1 2 3 7
+是 Washington 的 特徵 欄位 平均 比例,VC NR DEG NN NN JJ NN,NOUN,1 5 0 1 2 3 7 
+Washington 和 California 的 成本 和 利潤 平均 比例,NR CC NR DEG NN CC NN JJ NN,NOUN,1 3 1 0 1 3 1 3 7
+城市 為Oregon 國家 和 產品 的 特徵 欄位 平均 比例,NN JJ NN CC NR DEG NN NN JJ NN,NOUN,1 5 1 3 1 0 1 2 3 7
+US 在 Bikes 和 Clothing 的 成本 和 利潤 平均 比例,NR P NR CC NR DEG NN CC NN JJ NN,NOUN,5 1 5 3 5 0 1 3 1 3 7
+的 單位 價格 和 成本 和 利潤 平均 比例,DEG NN NN CC NN CC NN JJ NN,NOUN,0 1 2 3 1 3 1 3 7
+Clothing 平均 比例,NR JJ NN,NOUN,5 3 7
+單位 價格 大於 400 特徵 欄位 前 十 名 比例,NN NR VV CD NN NN DT CD M NN,NOUN,1 2 3 5 1 2 5 6 6 7
+城市 是 Oregon 成本 和 利潤 前 十 名 比例,NN VC NN NN CC NR DT CD M NN,NOUN,1 3 5 1 3 1 5 6 6 7 
+單位 價格 和 成本 和 利潤 前 十 名 比例,NN NN CC NN CC NR DT CD M NN,NOUN,1 2 3 1 3 1 5 6 6 7 
+單位 成本 小於 500Washington 和 California 前 十 名 比例,NN NN VV NN P NR DT CD M NN,NOUN,1 2 3 5 3 5 5 6 6 7
+國家 和 產品 前 十 名 比例,NN CC NR DT CD M NN,NOUN,1 3 1 5 6 6 7
+城市 非Oregon 布林 的 數量 前 十 名 比例,NN CC NN DEC NR DT CD M NN,NOUN,1 5 1 0 1 5 6 6 7
+單位 成本 小於 500 是 Washington 的 成本 和 利潤 前 十 名 比例,NN NN VV CD VC NR DEG NN CC NR DT CD M NN,NOUN,1 2 3 5 3 5 0 1 3 1 5 6 6 7
+城市 非OregonUS 在 Bikes 和 Clothing 的 特徵 欄位 前 十 名 比例,NN PU P NR CC NR DEG NN NN DT CD M NN,NOUN,1 5 3 5 3 5 0 1 2 5 6 6 7 
+單位 成本 小於 500 各 布林 的 客戶 編號 的 成本 和 利潤 前 十 名 比例,NN NN NN CD DT NN DEC NN NN DEG NN CC NR DT CD M NN,NOUN,1 2 3 5 3 1 0 1 2 0 1 3 1 5 6 6 7
+的 單位 價格 和 成本 和 利潤 前 十 名 比例,DEG NN NN CC NN CC NR DT CD M NN,NOUN,0 1 2 3 1 3 1 5 6 6 7
+城市 非Oregon 前 十 名 比例,NN P DT CD M NN,NOUN,1 5 5 6 6 7 
+是 會員 特徵 欄位 平均 前 十 名 比例,VC NN NN NN NN DT CD M NN,NOUN,3 1 1 2 3 5 6 6 7
+成本 和 利潤 平均 前 十 名 比例,NN CC NN NN DT CD M NN,NOUN,1 3 1 3 5 6 6 7
+單位 價格 和 成本 和 利潤 平均 前 十 名 比例,NN NN CC NN CC NN NN DT CD M NN,NOUN,1 2 3 1 3 1 3 5 6 6 7
+客戶 編號 平均 前 十 名 比例,NN NN AD DT CD M NN,NOUN,1 2 3 5 6 6 7
+US 在 Bikes 和 Clothing 平均 前 十 名 比例,NR P NR CC NR NN DT CD M NN,NOUN,5 3 5 3 5 3 5 6 6 7
+ClothingWashington 和 California 的 特徵 欄位 平均 前 十 名 比例,NN CC NR DEG NN NN NN DT CD M NN,NOUN,5 3 5 0 1 2 3 5 6 6 7
+是 Washington 的 成本 和 利潤 平均 前 十 名 比例,VC NR DEG NN CC NN NN DT CD M NN,NOUN,3 5 0 1 3 1 3 5 6 6 7
+各 產品 的 客戶 編號 的 特徵 欄位 平均 前 十 名 比例,DT NN DEG NN NN DEG NN NN NN DT CD M NN,NOUN,3 1 0 1 2 0 1 2 3 5 6 6 7 
+US 在 Bikes 和 Clothing 的 成本 和 利潤 平均 前 十 名 比例,NR P NR CC NR DEG NN CC NN NN DT CD M NN,NOUN,5 3 5 3 5 0 1 3 1 2 5 6 6 7
+城市 為Oregon 的 單位 價格 和 成本 和 利潤 平均 前 十 名 比例,NN JJ DEG NN NN CC NN CC NN NN DT CD M NN,NOUN,1 5 0 1 2 3 1 3 1 3 5 6 6 7
+單位 價格 大於 400 平均 前 十 名 比例,NN NR VV CD NN DT CD M NN,NOUN,1 2 3 5 3 5 6 6 7
+每 週 特徵 欄位 趨勢,DT M NN NN NN,NOUN,5 6 1 2 7
+這週 成本 和 利潤 趨勢,NT NN CC NN NN,NOUN,5 1 3 1 7
+第二 季 單位 價格 和 成本 和 利潤 趨勢,OD M NN NN CC NN CC NN NN,NOUN,5 6 1 2 3 1 3 1 7
+昨天 是 Washington 趨勢,NT VC NR NN,NOUN,5 3 5 7
+2019年 1月 1日 US 在 Bikes 和 Clothing 趨勢,NT NT NT NR P NR CC NR NN,NOUN,5 6 6 5 3 5 3 5 7
+2019年 1月 1日 Washington 和 California 的 數量 趨勢,NT NT NT NR CC NR DEG NR NN,NOUN,5 6 6 5 3 5 0 3 7
+每 週 布林 的 成本 和 利潤 趨勢,DT M NN DEG NN CC NN NN,NOUN,5 6 1 0 1 3 1 7
+今天 國家 和 產品 的 數量 趨勢,NT NN CC NR DEC NR NN,NOUN,5 1 3 1 0 1 7
+城市 非Oregon 每 季 各 布林 的 客戶 編號 的 成本 和 利潤 趨勢,NN P DT NN DT NN DEG NN NN DEG NN CC NR NN,NOUN,1 5 5 6 3 1 0 1 2 0 1 3 1 7 
+城市 非Oregon 第二 季 的 單位 價格 和 成本 和 利潤 趨勢,NN JJ OD M DEG NN NN CC NN CC NN NN,NOUN,1 5 5 6 0 1 2 3 1 3 1 7
+第二 季 單位 成本 小於 500 趨勢,OD M NN NN NN CD NN,NOUN,5 6 1 2 3 5 7
+城市 為Oregon 去年 客戶 編號 數量 平均 趨勢,NN AD NT NR NN NR JJ NN,NOUN,1 5 5 1 2 3 3 7
+2019年 第四 季 成本 和 利潤 平均 趨勢,NT OD NN NN CC NN NN NN,NOUN,5 6 6 1 3 1 3 7
+第四 天 單位 價格 和 成本 和 利潤 平均 趨勢,OD M NN NN CC NN CC NN NN NN,NOUN,3 5 1 2 3 1 3 1 3 7
+城市 為Oregon 這兩 週客 戶編 號 平均 趨勢,NN JJ NN NN NN PU JJ NN,NOUN,1 5 0 0 0 0 3 7
+單位 價格 大於 等於 500 昨天 US 在 Bikes 和 Clothing 平均 趨勢,NR NR VV NR CD NT NR P NR CC NR NN NN,NOUN,1 2 3 4 5 5 5 3 5 3 5 3 7
+Clothing 每 週 產品 的 特徵 欄位 平均 趨勢,NR DT M NR DEG NN NN JJ NN,NOUN,5 3 5 1 0 1 2 3 7
+去年 布林 的 成本 和 利潤 平均 趨勢,NT NN DEG NN CC NN NN NN,NOUN,5 1 0 1 3 1 3 7
+城市 為Oregon 上 季國家 和 產品 的 特徵 欄位 平均 趨勢,NN AD VV VV P NR DEG NN NN JJ NN,NOUN,1 5 0 0 3 1 0 1 2 3 7 
+單位 成本 小於 500 上 季US 在 Bikes 和 Clothing 的 成本 和 利潤 平均 趨勢,NN NN VV CD LC NN P NR CC NR DEG NN CC NN NN NN,NOUN,1 2 3 5 0 0 0 5 3 5 0 1 3 1 3 7
+這 一 個 月 的 單位 價格 和 成本 和 利潤 平均 趨勢,DT CD M NN DEG NN NN CC NN CC NN NN NN,NOUN,5 6 6 6 0 1 2 3 1 3 1 3 7
+2019年 10月 城市 為Oregon 平均 趨勢,NT NT NN AD JJ NN,NOUN,5 6 1 5 3 7
+城市 為Oregon 今天 特徵 欄位 前 十 名 趨勢,NN JJ NT NN NN DT CD M NN,NOUN,3 5 5 1 2 5 6 6 7
+城市 為Oregon 每年 成本 和 利潤 前 十 名 趨勢,NN AD AD NN CC NR DT CD M NN,NOUN,1 5 5 1 3 1 5 6 6 7
+城市 為Oregon 第四 天 單位 價格 和 成本 和 利潤 前 十 名 趨勢,NN JJ OD M NN NN CC NN CC NR DT CD M NN,NOUN,1 5 5 6 1 2 3 1 3 1 5 6 6 7
+2019年 1月 1日 是 Washington 前 十 名 趨勢,NT NT NT VC NR DT CD M NN,NOUN,5 6 6 3 5 5 6 6 7
+城市 不是 Oregon 每年 國家 和 產品 前 十 名 趨勢,NN AD NR AD NN CC NR DT CD M NN,NOUN,1 3 5 6 1 3 1 5 6 6 7
+城市 不為Oregon前三年 產品 的 特徵 欄位 前 十 名 趨勢,NN JJ NN DEC NN NN DT CD M NN,NOUN,1 5 5 1 0 1 3 1 5 6 6 7
+城市 不為Oregon 上月 產品 的 成本 和 利潤 前 十 名 趨勢,NN AD NT NR DEG NN CC NR DT CD M NN,NOUN,1 5 5 1 0 1 3 1 5 6 6 7
+過去 三月 國家 和 產品 的 特徵 欄位 前 十 名 趨勢,NR NT NN CC NR DEG NN NN DT CD M NN,NOUN,5 6 1 3 1 0 1 2 5 6 6 7 
+單位 成本 小於 500 第二 季 US 在 Bikes 和 Clothing 的 成本 和 利潤 前 十 名 趨勢,NN NN NN CD OD M NR P NR CC NR DEG NN CC NR DT CD M NN,NOUN,1 2 3 5 5 6 5 3 5 3 5 0 1 3 1 5 6 6 7 
+單位 價格 大於 400 過 去 三月 的 單位 價格 和 成本 和 利潤 前 十 名 趨勢,NN NR VV CD M VV NT DEC NN NN CC NN CC NR DT CD M NN,NOUN,1 2 3 5 5 6 6 0 1 2 3 1 3 1 5 6 6 7 
+上週 城市 不是 Oregon 前 十 名 趨勢,NT NN AD NR DT CD M NN,NOUN,5 1 3 5 5 6 6 7 
+本月 特徵 欄位 平均 前 十 名 趨勢,NT NN NN NN DT CD M NN,NOUN,5 1 2 3 5 6 6 7
+當季 成本 和 利潤 平均 前 十 名 趨勢,JJ NN CC NN NN DT CD M NN,NOUN,5 1 3 1 3 5 6 6 7 
+城市 非Oregon 第四 天 單位 價格 和 成本 和 利潤 平均 前 十 名 趨勢,NN CC OD M NN NN CC NN CC NN NN DT CD M NN,NOUN,1 5 5 6 1 2 3 1 3 1 3 5 6 6 7 
+每 季 事件 平均 前 十 名 趨勢,DT M NN AD DT CD M NN,NOUN,5 6 1 3 5 6 6 7 
+2019年 第四 季 US 在 Bikes 和 Clothing 平均 前 十 名 趨勢,NT OD NN NR P NR CC NR NN DT CD M NN,NOUN,5 6 6 5 3 5 3 5 3 5 6 6 7 
+前 一 週 布林 的 數量 平均 前 十 名 趨勢,DT CD M NN DEG NR NN DT CD M NN,NOUN,5 6 6 1 3 1 3 5 6 6 7 
+今天 產品 的 成本 和 利潤 平均 前 十 名 趨勢,NT NR DEG NN CC NN NN DT CD M NN,NOUN,5 1 0 1 3 1 3 5 6 6 7
+每 週 各 布林 的 客戶 編號 的 數量 平均 前 十 名 趨勢,DT M DT NN DEG NN NN DEG NR NN DT CD M NN,NOUN,5 6 3 1 0 1 2 0 3 3 5 6 6 7 
+這週US 在 Bikes 和 Clothing 的 成本 和 利潤 平均 前 十 名 趨勢,NN P NR CC NR DEG NN CC NN NN DT CD M NN,NOUN,5 3 5 3 5 0 1 3 1 3 5 6 6 7
+單位 成本 小於 500 第二 季 的 單位 價格 和 成本 和 利潤 平均 前 十 名 趨勢,NN NN NN CD OD NN DEC NN NN CC NN CC NN NN DT CD M NN,NOUN,1 2 3 5 5 6 0 1 2 3 1 3 1 3 5 6 6 7
+上季 單位 價格 大於 400 平均 前 十 名 趨勢,NN NN NR VV CD NN DT CD M NN,NOUN,5 1 2 3 5 3 5 6 6 7 
+城市 不是 Oregon 日期,NN VC NR NN,NOUN,1 3 5 1 
+2019年 1月 和 2月,NT NT CC NT,NOUN,5 6 3 6
+單位 價格 大於 400日 期 客戶 編號 數量,NR NR VV OD M NN NN NR,PROPN,1 2 3 5 1 1 2 3 
+單位 價格 大於 400 2019年 和 2019年 客戶 編號 數量,NN NR VV CD NT CC NT NR NN NR,PROPN,1 2 3 5 5 3 6 1 2 3 
+城市 非Oregon 日期 成本 和 利潤,NN CC NN NN CC NR,PROPN,1 5 1 1 3 1 
+單位 價格 大於 400 2019年 1月 跟 2019年 2月 成本 和 利潤,NN NR VV CD NT NT P NT NT NN CC NR,PROPN,1 2 3 5 5 6 3 5 6 1 3 1
+城市 非Oregon,NN AD,ADV,1 5 
+日期 平均,NN AD,ADV,1 3 
+2019年 至 2019年 平均,NT CC NT AD,ADV,5 3 5 3 
+是 會員 日期 特徵 欄位 平均,VC NN NN NN NN AD,ADV,3 1 1 1 2 3 
+2019年 至 2019年 客戶 編號 數量 平均,NT CC NT NR NN NR AD,ADV,5 3 5 1 2 3 3
+單位 成本 小於 500 日期 成本 和 利潤 平均,NN NN NN CD NN NN CC NN AD,ADV,1 2 3 5 1 1 3 1 3 
+2019年 1月 跟 2019年 2月 成本 和 利潤 平均,NT NT P NT NT NN CC NN AD,ADV,5 6 3 5 6 1 3 1 3 
+城市 不是 Oregon 平均,NN AD NN AD,ADV,1 3 5 3 
+是 會員 日期 前 十 名,VC NN NN DT CD M,NUM,3 1 1 5 6 6
+2019年 1月 跟 2019年 2月 前 十 名,NT NT P NT NT DT CD M,NUM,5 6 3 5 6 5 6 6 
+城市 不為Oregon 日期 特徵 欄位 前 十 名,NN AD NN NN NN DT CD M,NUM,1 5 1 1 2 5 6 6
+2019年 和 2019年 客戶 編號 數量 前 十 名,NT CC NT NR NN NR DT CD M,NUM,5 3 5 1 2 3 5 6 6
+日期 成本 和 利潤 前 十 名,NN NN CC NR DT CD M,NUM,1 1 3 1 5 6 6 
+2019年 至 2019年 成本 和 利潤 前 十 名,NT CC NT NN CC NR DT CD M,NUM,5 3 5 1 3 1 5 6 6
+城市 為Oregon 前 十 名,NN AD DT CD M,NUM,1 5 5 6 6
+城市 不是 Oregon 日期 平均 前 十 名,NN VC NN NN AD DT CD M,NUM,1 3 5 1 3 5 6 6 
+Clothing 2019年 至 2019年 平均 前 十 名,NR NT CC NT AD DT CD M,NUM,5 5 3 5 3 5 6 6 
+日期 特徵 欄位 平均 前 十 名,NN NN NN NN DT CD M,NUM,1 1 2 3 5 6 6
+2019年 1月 和 2月 客戶 編號 數量 平均 前 十 名,NT NT CC NT NR NN NR NN DT CD M,NUM,5 6 3 5 1 2 3 3 5 6 6
+城市 為Oregon 日期 成本 和 利潤 平均 前 十 名,NN JJ NN NN CC NN NN DT CD M,NUM,1 5 1 1 3 1 3 5 6 6
+2019年 至 2019年 成本 和 利潤 平均 前 十 名,NT CC NT NN CC NN NN DT CD M,NUM,5 3 5 1 3 1 3 5 6 6
+城市 非Oregon 平均 前 十 名,NN P AD DT CD M,NUM,1 5 3 5 6 6 
+今年 特徵 欄位 比較,NT NN NN AD,ADV,5 1 2 3
+城市 為Oregon 今年 成本 和 利潤 比 較,NN JJ NT NN CC NN P NR,PROPN,1 5 5 1 3 1 7 8 
+城市 為Oregon 第四 天 單位 價格 和 成本 和 利潤 比 較,NN JJ OD M NN NN CC NN CC NN P NR,PROPN,1 5 6 6 1 2 3 1 3 1 7 8
+是 會員 昨天 布林 比較,VC NN NT PN AD,ADV,3 1 3 1 7
+城市 為Oregon 今天 US 在 Bikes 和 Clothing 比較,NN JJ NT NR P NR CC NR AD,ADV,1 5 5 5 3 5 3 5 7
+單位 價格 大於 4002019年 10月 是 Washington 的 數量 比 較,NR NR VV NT NT VC NR DEG NR CC NR,PROPN,1 2 3 0 5 3 5 0 3 7 8
+是 會員 每年 布林 的 成本 和 利潤 比 較,VC NN AD NN DEG NN CC NN P NR,PROPN,3 1 5 1 0 1 3 1 7 8 
+Clothing 上 兩季 國家 和 產品 的 特徵 欄位 比較,NR LC NR NN CC NR DEG NN NN AD,ADV,5 5 6 3 3 1 0 1 2 7
+城市 為Oregon 這 一 個 月 各 事件 的 客戶 編號 的 成本 和 利潤 比 較,NN PU DT CD M NN DT NN DEC NN NN DEG NN CC NN P NR,PROPN,1 5 0 5 6 6 3 1 0 1 2 0 1 3 1 7 8
+這週 的 單位 價格 和 成本 和 利潤 比 較,NT DEG NN NN CC NN CC NN P NR,PROPN,5 0 1 2 3 1 3 1 7 8
+每日 城市 為Oregon 比較,JJ NN AD AD,ADV,5 1 5 7
+今天 客戶 編號 數量 平均 比 較,NT NR NN NR AD P NR,PROPN,5 1 2 3 3 7 8 
+當季 成本 和 利潤 平均 比 較,JJ NN CC NN AD P NR,PROPN,5 1 3 1 3 7 8 
+每年 單位 價格 和 成本 和 利潤 平均 比 較,JJ NN NN CC NN CC NN AD P NR,PROPN,5 1 2 3 1 3 1 3 7 8 
+Clothing過 去 三月 是 Washington 平均 比 較,NR VV NT VC NR AD P NR,PROPN,0 0 5 3 5 3 7 8
+城市 不為Oregon 每日 US 在 Bikes 和 Clothing 平均 比 較,NN AD AD NR P NR CC NR AD P NR,PROPN,1 5 5 5 3 5 3 5 3 7 8 
+單位 價格 大於 等於 500 今天 布林 的 特徵 欄位 平均 比 較,NR NR VV NR CD NT NN DEG NN NN AD P NR,PROPN,1 2 3 4 5 5 1 0 1 2 3 7 8 
+單位 成本 小於 500 這 兩週 類別 的 成本 和 利潤 平均 比 較,NN NN VV CD DT OD NN DEG NN CC NN AD P NR,PROPN,1 2 3 5 5 6 1 0 1 3 1 3 7 8 
+上週 各 事件 的 客戶 編號 的 特徵 欄位 平均 比 較,NT DT NN DEG NN NN DEG NN NN AD P NR,PROPN,5 3 1 0 1 2 0 1 2 3 7 8 
+上 兩季 各 產品 的 客戶 編號 的 成本 和 利潤 平均 比 較,VV VV DT NN DEC NN NN DEG NN CC NN AD P NR,PROPN,5 6 3 1 0 1 2 0 1 3 1 3 7 8 
+城市 非Oregon 上季 的 單位 價格 和 成本 和 利潤 平均 比 較,NN P NN DEG NN NN CC NN CC NN AD P NR,PROPN,1 5 5 0 1 2 3 1 3 1 3 7 8 
+去年 Clothing 平均 比 較,NT NR AD P NR,PROPN,5 5 3 7 8 
+城市 非Oregon 第四 天 客戶 編號 數量 前 十 名 比較,NN AD OD M NR NN NR DT CD M AD,ADV,1 5 5 6 1 2 3 5 6 6 7 
+城市 為Oregon 這週 成本 和 利潤 前 十 名 比較,NN JJ NT NN CC NR DT CD M AD,ADV,1 5 5 1 3 1 5 6 6 7
+昨天 單位 價格 和 成本 和 利潤 前 十 名 比較,NT NR NN CC NN CC NR DT CD M AD,ADV,5 1 2 3 1 3 1 5 6 6 7
+去年 客戶 編號 前 十 名 比較,NT NR NN DT CD M AD,ADV,5 1 2 5 6 6 7
+去年 US 在 Bikes 和 Clothing 前 十 名 比較,NT NR P NR CC NR DT CD M AD,ADV,5 5 3 5 3 5 5 6 6 7
+前 三年 產品 的 數量 前 十 名 比較,DT CD NN DEC NR DT CD M AD,ADV,5 6 1 3 0 3 5 6 6 7
+單位 成本 小於 500 上 兩季 Washington 和 California 的 成本 和 利潤 前 十 名 比較,NN NN VV CD M VV NR CC NR DEG NN CC NR DT CD M AD,ADV,1 2 3 5 0 5 6 3 5 0 1 3 1 5 6 6 7
+城市 是 Oregon 每日 國家 和 產品 的 特徵 欄位 前 十 名 比較,NN VC NR AD NN CC NR DEG NN NN DT CD M AD,ADV,1 3 5 1 1 3 1 3 1 2 5 6 6 7
+城市 為Oregon 2019年 1月 1日 國家 和 產品 的 成本 和 利潤 前 十 名 比較,NN NT NT NT NT NR CC NR DEG NN CC NR DT CD M AD,ADV,1 5 5 6 6 1 3 1 0 1 3 1 5 6 6 7
+當季 的 單位 價格 和 成本 和 利潤 前 十 名 比較,VA DEG NN NN CC NN CC NR DT CD M AD,ADV,5 0 1 2 3 1 3 1 5 6 6 7 
+上季 城市 為Oregon 前 十 名 比較,NN NN AD DT CD M AD,ADV,5 1 5 5 6 6 7 
+單位 價格 大於 4002019年 1月 1日 客戶 編號 數量 平均 前 十 名 比較,NR NR VV NT NT NT NR NN NR NN DT CD M AD,ADV,1 2 3 0 5 6 1 2 3 4 5 6 6 7
+2019年 10月 成本 和 利潤 平均 前 十 名 比較,NT NT NN CC NN NN DT CD M AD,ADV,5 6 1 3 1 3 5 6 6 7 
+2019年 第四 季 單位 價格 和 成本 和 利潤 平均 前 十 名 比較,NT OD M NN NN CC NN CC NN NN DT CD M AD,ADV,5 6 6 1 2 3 1 3 1 3 5 6 6 7
+2019年 第四 季 Washington 和 California 平均 前 十 名 比較,NT OD M NR CC NR NN DT CD M AD,ADV,5 6 6 5 3 5 3 5 6 6 7
+這 一 個 月 國家 和 產品 平均 前 十 名 比較,DT CD M NN NN CC NR NN DT CD M AD,ADV,5 6 6 6 1 3 1 3 5 6 6 7 
+今年 是 Washington 的 數量 平均 前 十 名 比較,NT VC NR DEG NR NN DT CD M AD,ADV,5 3 5 0 3 3 5 6 6 7
+城市 為Oregon 今天 布林 的 成本 和 利潤 平均 前 十 名 比較,NN CC NT NN DEG NN CC NN NN DT CD M AD,ADV,1 5 5 1 0 1 3 1 3 5 6 6 7
+是 會員 每 季 US 在 Bikes 和 Clothing 的 特徵 欄位 平均 前 十 名 比較,VC NN DT M NR P NR CC NR DEG NN NN NN DT CD M AD,ADV,3 1 5 6 5 3 5 3 5 0 1 2 3 5 6 6 7 
+是 會員 每 週 各 類別 的 客戶 編號 的 成本 和 利潤 平均 前 十 名 比較,VC NN DT M DT NN DEG NN NN DEG NN CC NN NN DT CD M AD,ADV,3 1 5 6 3 4 0 1 2 0 1 3 1 3 5 6 6 7 
+每月 的 單位 價格 和 成本 和 利潤 平均 前 十 名 比較,NN DEG NN NN CC NN CC NN NN DT CD M AD,ADV,5 3 1 2 3 1 3 1 3 5 6 6 7 
+2019年 1月 1日 城市 非Oregon 平均 前 十 名 比較,NT NT NT NN P AD DT CD M AD,ADV,5 6 6 1 5 3 5 6 6 7 
+本月 客戶 編號 數量 比例,NT NR NN NR NN,NOUN,5 1 2 3 7 
+昨天 成本 和 利潤 比例,NT NN CC NN NN,NOUN,5 1 3 1 7
+城市 不是 Oregon 上週 單位 價格 和 成本 和 利潤 比例,NN AD NR NT NN NN CC NN CC NN NN,NOUN,1 3 5 6 1 2 3 1 3 1 7
+第二 季 產品 比例,OD M NN NN,NOUN,5 6 1 7 
+城市 不是 Oregon 上 季US 在 Bikes 和 Clothing 比例,NN AD NN LC NN P NR CC NR NN,NOUN,1 3 5 6 0 0 5 3 5 7
+城市 不是 Oregon 今天 Washington 和 California 的 數量 比例,NN AD NN NT NR CC NR DEG NR NN,NOUN,1 5 5 5 3 5 0 1 3 1 7
+城市 為Oregon 前 四 天 Washington 和 California 的 成本 和 利潤 比例,NN AD DT CD M NR CC NR DEG NN CC NN NN,NOUN,1 5 5 6 6 1 3 1 0 1 3 1 7
+Clothing 本月 US 在 Bikes 和 Clothing 的 特徵 欄位 比例,NR AD NR P NR CC NR DEG NN NN NN,NOUN,5 5 5 3 5 3 5 0 1 2 7
+這 一 個 月 國家 和 產品 的 成本 和 利潤 比例,DT CD M NN NN CC NR DEG NN CC NN NN,NOUN,5 6 6 6 1 3 1 0 1 3 1 7
+單位 成本 小於 500 上 兩季 的 單位 價格 和 成本 和 利潤 比例,NN NN VV CD M NN DEC NN NN CC NN CC NN NN,NOUN,1 2 3 5 5 6 0 1 2 3 1 3 1 7
+今天 Clothing 比例,NT NR NN,NOUN,5 5 7
+城市 為Oregon 本月 客戶 編號 數量 平均 比例,NN JJ NT NR NN NR JJ NN,NOUN,1 5 6 1 2 3 4 7
+單位 成本 小於 5002019年 10月 成本 和 利潤 平均 比例,NN NN VV NT NT NN CC NN JJ NN,NOUN,1 2 3 0 5 1 3 1 3 7
+這 一 個 月 單位 價格 和 成本 和 利潤 平均 比例,DT CD M NN NN NN CC NN CC NN JJ NN,NOUN,0 5 6 6 1 2 3 1 3 1 3 7
+單位 價格 大於 等於 500 今年 產品 平均 比例,NR NR VV NR CD NT NR JJ NN,NOUN,1 2 3 4 5 5 1 3 7 
+城市 為Oregon 去年 國家 和 產品 平均 比例,NN JJ NT NN CC NR JJ NN,NOUN,1 5 3 1 3 1 3 7 
+上 兩季 布林 的 特徵 欄位 平均 比例,VV VV NN DEC NN NN JJ NN,NOUN,5 6 1 0 1 2 3 7 
+上 週 布林 的 成本 和 利潤 平均 比例,DT M NN DEG NN CC NN JJ NN,NOUN,5 6 1 0 1 3 1 3 7 
+每月 US 在 Bikes 和 Clothing 的 數量 平均 比例,JJ NR P NR CC NR DEG NR JJ NN,NOUN,5 5 3 5 3 5 0 3 3 7
+城市 是 Oregon 今年 US 在 Bikes 和 Clothing 的 成本 和 利潤 平均 比例,NN VC NR NT NR P NR CC NR DEG NN CC NN JJ NN,NOUN,1 3 5 3 5 3 5 3 5 0 1 3 1 3 7
+Clothing 上 兩季 的 單位 價格 和 成本 和 利潤 平均 比例,NR LC NN DEC NN NN CC NN CC NN JJ NN,NOUN,5 5 6 0 1 2 3 1 3 1 3 7
+上季 城市 不為Oregon 平均 比例,NN NN AD JJ NN,NOUN,5 1 5 3 7 
+是 會員 2019年 10月 客戶 編號 數量 前 十 名 比例,VC NN NT NT NR NN NR DT CD M NN,NOUN,3 1 5 6 1 2 3 5 6 6 7
+城市 非Oregon 第四 天 成本 和 利潤 前 十 名 比例,NN CC OD M NN CC NR DT CD M NN,NOUN,1 5 5 6 1 3 1 5 6 6 7 
+昨天 單位 價格 和 成本 和 利潤 前 十 名 比例,NT NR NN CC NN CC NR DT CD M NN,NOUN,5 1 2 3 1 3 1 5 6 6 7 
+2019年 1月 1日 客戶 編號 前 十 名 比例,NT NT NT NR NN DT CD M NN,NOUN,5 6 6 1 2 5 6 6 7
+前 三年 各 類別 的 客戶 編號 前 十 名 比例,DT CD DT NN DEG NN NN DT CD M NN,NOUN,5 6 3 4 0 1 2 5 6 6 7 
+這週 是 Washington 的 特徵 欄位 前 十 名 比例,NT VC NR DEG NN NN DT CD M NN,NOUN,5 3 1 0 1 2 5 6 6 7
+城市 為Oregon 2019年 第四 季 類別 的 成本 和 利潤 前 十 名 比例,NN JJ NT OD M NR DEG NN CC NR DT CD M NN,NOUN,1 5 5 6 6 3 0 1 3 1 5 6 6 7
+城市 是 Oregon 2019年 第四 季 國家 和 產品 的 特徵 欄位 前 十 名 比例,NN VC NR NT OD M NN CC NR DEG NN NN DT CD M NN,NOUN,1 3 5 5 6 6 1 3 1 0 1 2 5 5 6 7 
+今天 US 在 Bikes 和 Clothing 的 成本 和 利潤 前 十 名 比例,NT NR P NR CC NR DEG NN CC NR DT CD M NN,NOUN,5 5 3 5 3 5 0 1 3 1 5 6 6 7
+上週 的 單位 價格 和 成本 和 利潤 前 十 名 比例,NT DEG NN NN CC NN CC NR DT CD M NN,NOUN,5 0 1 2 3 1 3 1 5 6 6 7
+本月 城市 為Oregon 前 十 名 比例,NT NN AD DT CD M NN,NOUN,5 1 5 5 6 6 7
+城市 不是 Oregon 每 週 客戶 編號 數量 平均 前 十 名 比例,NN AD NN DT M NN NN NR NN DT CD M NN,NOUN,1 3 5 5 6 1 2 3 3 5 6 6 7
+城市 不為Oregon 昨天 成本 和 利潤 平均 前 十 名 比例,NN AD NT NN CC NN NN DT CD M NN,NOUN,1 5 5 1 3 1 3 5 6 6 7
+第二 季 單位 價格 和 成本 和 利潤 平均 前 十 名 比例,OD M NN NN CC NN CC NN NN DT CD M NN,NOUN,5 6 1 2 3 1 3 1 3 5 6 6 7
+前 三年 布林 平均 前 十 名 比例,DT CD NN AD DT CD M NN,NOUN,5 6 1 3 5 6 6 7 
+單位 成本 小於 500 第二 季 國家 和 產品 平均 前 十 名 比例,NN NN NN CD OD M NN CC NR NN DT CD M NN,NOUN,1 2 3 5 5 6 1 3 1 3 5 6 6 7 
+這 一 個 月 類別 的 數量 平均 前 十 名 比例,DT CD M NN NN DEG NR NN DT CD M NN,NOUN,5 6 6 6 1 3 1 3 5 6 6 7 
+2019年 1月 1日 是 Washington 的 成本 和 利潤 平均 前 十 名 比例,NT NT NT VC NR DEG NN CC NN NN DT CD M NN,NOUN,5 6 6 3 5 0 1 3 1 3 5 6 6 7
+每月 國家 和 產品 的 數量 平均 前 十 名 比例,NT NN CC NR DEC NR NN DT CD M NN,NOUN,5 1 3 1 0 1 3 5 6 6 7
+城市 為Oregon 每 週 各 產品 的 客戶 編號 的 成本 和 利潤 平均 前 十 名 比例,NN AD DT M DT NN DEG NN NN DEG NN CC NN NN DT CD M NN,NOUN,1 5 5 6 3 1 3 1 2 0 1 3 1 3 5 6 6 7
+過去 三月 的 單位 價格 和 成本 和 利潤 平均 前 十 名 比例,NR NT DEG NN NN CC NN CC NN NN DT CD M NN,NOUN,5 6 0 1 2 3 1 3 1 3 5 6 6 7
+第四 天 城市 為Oregon 平均 前 十 名 比例,OD M NN AD AD DT CD M NN,NOUN,5 6 1 5 3 5 6 6 7
+甚 麼與 成本 有 關,AD NR NN VE NR,PROPN,9 10 1 7 8 
+US 甚麼 與 單位 價格 有 關,NR NN P NR NR VE NR,PROPN,5 9 3 1 2 7 8 
+2019年 甚 麼與 單位 價格 有 關,NT NN NR NN NR VE NR,PROPN,5 9 10 1 2 7 8 
+2019年 甚 麼與 單位 價格 有 關,NT NN NR NN NR VE NR,PROPN,5 9 10 1 2 7 8 
+甚 麼與 成本 有 關,AD NR NN VE NR,PROPN,9 10 1 7 8 
+性別為M 甚 麼與 單位 價格 有 關,NN AD NR NN NR VE NR,PROPN,5 9 10 1 2 7 8 
+2019年 甚 麼與 成本 有 關,NT NN NR NN VE NR,PROPN,5 9 10 1 7 8 
+甚 麼與 產品 有 關,AD NR NR VE NR,PROPN,9 10 1 7 8 
+利潤 大於 500 甚 麼與 類別 有 關,NR VV CD NN NR NR VE NR,PROPN,1 3 5 9 10 1 7 8 
+2019年 甚 麼與 產品 有 關,NT NN NR NR VE NR,PROPN,5 9 10 1 7 8 
+甚麼 與 國家 有 關,NN P NN VE NR,PROPN,9 3 1 7 8 
+US 甚麼 與 城市 有 關,NR NN P NN VE NR,PROPN,5 9 3 1 7 8 
+2019年 甚 麼與 類別 有 關,NT NN NR NR VE NR,PROPN,5 9 10 1 7 8 
+甚麼 與 類別 有 關,NN P NR VE NR,PROPN,9 3 1 7 8 
+性別為M 甚 麼與 類別 有 關,NN AD NR NR VE NR,PROPN,5 9 10 1 7 8 
+2019年 甚 麼與 類別 有 關,NT NN NR NR VE NR,PROPN,5 9 10 1 7 8 
+甚 麼與 產品 有 關,AD NR NR VE NR,PROPN,9 10 1 7 8 
+US 甚麼 與 產品 有 關,NR NN P NR VE NR,PROPN,5 9 3 1 7 8 
+2019年 5月 甚麼 與 類別 有 關,NT NT PN P NR VE NR,PROPN,5 6 9 3 1 7 8 
+甚麼 與 國家 有 關,NN P NN VE NR,PROPN,9 3 1 7 8
+US 甚麼 與 國家 有 關,NR NN P NN VE NR,PROPN,5 9 3 1 7 8 
+成本 和 利潤 的 關係,NN CC NR DEG NN,NOUN,1 3 1 0 7
+US 成本 和 單價 的 關係,NR NN CC NR DEG NN,NOUN,5 1 3 1 0 7
+類別 和 產品 的 關係,NR CC NR DEG NN,NOUN,1 3 1 0 7 
+類別 和 國家 的 關係,NR CC NN DEG NN,NOUN,1 3 1 0 7 
+產品 和 類別 的 關係,NR CC NR DEC NN,NOUN,1 3 1 0 7 
+France 和 其他 有 什麼 差異,NR CC DT VE DT NN,NOUN,5 3 9 0 0 7
+性別為 MHelmets 和 其他 有 什麼 差異,NR NR CC DT VE DT NN,NOUN,0 0 3 9 0 0 7
+2019年 10月 Helmets 和 其他 有 甚麼 差異,NT NT NR CC DT VE DT NN,NOUN,5 6 6 3 9 0 0 7
+US 每 周 成本 的 預測,NR DT M NN DEG NN,NOUN,5 5 6 1 0 7 
+每 季 單位 價格 的 預測,DT M NN NR DEG NN,NOUN,5 6 1 2 0 7
+利潤 大於 500 每 周 單位 價格 的 預測,NR VV CD CD M NN NR DEG NN,NOUN,1 3 5 5 6 1 2 0 7
+Washington 的 2019年 10月 單位 價格 的 根因 分析,NR DEG NT NT NR NR DEG NN VV,VERB,5 0 5 6 1 2 0 7 8 
+Clothing 的 2019年 成本 的 根因 分析,NR DEG NT NN DEG NN VV,VERB,5 0 5 1 0 7 8 
+Clothing爲 甚麼 2019年 的 成本 下降,NR AD NT DEG NN VV,VERB,5 9 5 0 1 3 
+爲 甚麼 2019年 的 成本 下降,P DT NT DEG NN VV,VERB,9 10  5 0 1 3 
